@@ -27,7 +27,7 @@ $data = [
       ?> 
     </tr>
     <?php
-    for ($i=0; $i < 4; $i++) { 
+    for ($i=0; $i < 5; $i++) { 
         echo "<tr>";
         echo "<td>" .$data["Nama"][$i] . "</td>";
         echo "<td>" .$data["NIM"][$i] . "</td>";
