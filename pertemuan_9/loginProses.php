@@ -13,7 +13,7 @@ echo "Anda berhasil login. silahkan menuju "; ?>
 <a href="homeAdmin.html">Halaman HOME</a>
 <?php
 }else{
-echo "Anda gagal login. silahkan " ;? >
+echo "Anda gagal login. silahkan " ; ?>
 <a href="loginForm.html">Login kembali</a>
 <?php
 echo mysqli_error ($connect) ;

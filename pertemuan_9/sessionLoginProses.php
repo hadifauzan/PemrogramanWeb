@@ -11,7 +11,7 @@ $cek = mysqli_num_rows ($result) ;
 if ($cek > 0) {
 session_start ();
 $_SESSION ['username' ] = $username;
-$ SESSION ['status'] = 'login';
+$_SESSION ['status'] = 'login';
 ?>
 Anda Berhasil Login, silahkan menuju
 <a href = "homeSession.php"> Halaman Home </a> <?php
